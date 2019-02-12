@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Game {
     static int[] a = new int[10];
@@ -17,6 +18,10 @@ public class Game {
     }
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double d = sc.nextDouble();
+        double v = sc.nextDouble();
+        System.out.println(d);
         int sum = 25;
         Random rand = new Random();
         for (int i = 0; i < 10 ; i++) {
