@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<beer>
+    <alcohol>true</alcohol>
+    <chars>
+        <name>volume</name>
+        <value>2L</value>
+    </chars>
+    <ingredients>
+        <amount>2.0</amount>
+        <name>water</name>
+    </ingredients>
+    <ingredients>
+        <amount>0.1</amount>
+        <name>malt</name>
+    </ingredients>
+    <manufacturer>Holland</manufacturer>
+    <name>Hoegarden</name>
+    <type>LIGHT</type>
+</beer>
