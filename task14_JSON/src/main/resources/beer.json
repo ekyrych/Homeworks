@@ -1,0 +1,22 @@
+{
+  "name": "Hoegarden",
+  "type": "LIGHT",
+  "manufacturer": "Holland",
+  "ingredients": [
+    {
+      "name": "water",
+      "amount": 2.0
+    },
+    {
+      "name": "malt",
+      "amount": 0.1
+    }
+  ],
+  "chars": [
+    {
+      "name": "volume",
+      "value": "2L"
+    }
+  ],
+  "alcohol": true
+}

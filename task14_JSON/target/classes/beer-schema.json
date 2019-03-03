@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "properties": {
+    "alcohol": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "string"
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "DARK",
+        "LIGHT",
+        "LAGER",
+        "LIVING"
+      ]
+    },
+    "chars": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "manufacturer": {
+      "type": "string"
+    }
+  }
+}
